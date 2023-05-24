@@ -99,9 +99,12 @@ Blog Section
 }
 
 #blog .blog .blog-header {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  
 }
 
 /*
@@ -216,6 +219,7 @@ Media Quires
 
   #blog .blog .blog-header {
     width: 100vw;
+    display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
