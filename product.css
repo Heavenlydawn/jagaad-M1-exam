@@ -1,0 +1,117 @@
+/* Product start*/
+:root{
+    --main-color-dark: rgb(245, 252, 252);
+}
+body{
+    background-color: var(--main-color-dark);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    
+}
+fr-product{
+    width: 65%;
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+/* .product-header{
+   display: flex;
+   align-items: center;
+   
+} */
+.product-header h3{
+    font-size: 30px;
+    width: 50%;
+    margin: 60px auto;
+    color: black;
+    margin-bottom: 10px;
+}
+.product-header p{
+    color: #393b3d;
+    margin-left: 400px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    
+}
+.product-main{
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+}
+.product-main-item{
+    
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius: 25px;
+    padding: 25px 10px;
+    line-height: 25px;
+    transition: 0.5s;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.btn{
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    margin-left: 620px;
+}
+.btn-primary:hover{
+    background: #fff;
+    color: #2c333b;
+}
+
+.btn-primary{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #5512f3;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 15px;
+    
+    
+}
+.product-main-item:hover{
+    background: #eceff1;
+    color: #fff;
+    box-shadow: none;
+}
+.product-main-item:hover .btn-primary{
+    color: #6c7a8a;
+}
+.product-main-item arrow-icon{
+    color: #5cc035;
+    margin-right: 10px;
+}
+.product-type{
+    /* display: flex;
+    gap: 40px;
+    margin-top: 40px; */
+    color: black;
+    
+}
+.product-type-content{
+  font-size: 14px;
+  color: rgb(71, 75, 75);
+  width: 100%;
+  margin: auto;
+}
+.product-type-redirect{
+   color: #164b01;
+   
+}
+product-type-redirect:hover{
+    color: #7ff312;
+    
+}
+
+@media (max-width: 575.98px) {
+    .btn {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  /* Product end*/
