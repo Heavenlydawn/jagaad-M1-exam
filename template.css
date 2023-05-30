@@ -14,7 +14,7 @@ Variables
   --white: #fff;
   --black: #000;
   --primary-font-color: #111235;
-  --secondary-font-color: #ff6160;
+  --secondary-font-color: #ff6160;              
   --blue: #3734a9;
   --btn-bg-color: #0091d0;
   --bg-color: #f8f9fd;
@@ -45,6 +45,7 @@ html {
 }
 body {
   font-family: var(--font-family);
+
 }
 button {
   border: none;
@@ -297,7 +298,7 @@ Media Queries
     top: 530px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   #template .template .template-top {
     width: 450px;
     flex-direction: column;
