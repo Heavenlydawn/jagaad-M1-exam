@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Manrope:wght@500;600;700;800&display=swap");
+
+:root {
+  --green: #01966b;
+  --primary-color: #64607d;
+  --box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+  --font-family: "Manrope", sans-serif;
+  --dark: #1b1c31;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-family);
+}
+span {
+  color: var(--green);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+.btn {
+  text-align: center;
+  margin-top: 42px;
+}
+button {
+  outline: none;
+  border: none;
+  background: #4f46ba;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+#product .product {
+  width: calc(100vw - 122px);
+  max-width: 1635px;
+  height: 807px;
+  margin: 0 auto;
+}
+/* Product head */
+#product .product .product-head {
+  text-align: center;
+  width: 718px;
+  margin: 0 auto;
+  margin-top: 178px;
+}
+#product .product .product-head h1 {
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+}
+#product .product .product-head p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: var(--primary-color);
+}
+
+/* Product Cards */
+#product .product .product-cards .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 59px;
+}
+#product .product .product-cards .cards .card {
+  width: 380px;
+  height: 350px;
+  box-shadow: var(--box-shadow);
+  border-radius: 22px;
+  padding: 70px 33px;
+}
+#product .product .product-cards .cards .card h2 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  color: var(--dark);
+}
+#product .product .product-cards .cards .card p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: var(--primary-color);
+}
+#product .product .product-cards .cards .card .read-more {
+  margin-top: 70px;
+}
+
+@media screen and (width: 1024px) {
+  #product .product .product-cards .cards .card .read-more {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width:800px) {
+    #product .product .product-cards .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 500px) {
+  button {
+    font-size: 14px;
+  }
+  span{
+    font-size: 14px;
+  }
+  /* Product head */
+  #product .product .product-head {
+    width: 250px;
+  }
+  #product .product .product-head h1 {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+  #product .product .product-head p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  #product .product .product-cards .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  #product .product .product-cards .cards .card {
+    width: 300px;
+    height: 300px;
+    padding: 50px 33px;
+  }
+  #product .product .product-cards .cards .card .read-more {
+    margin-top: 20px;
+  }
+  #product .product .product-cards .cards .card h2 {
+    font-size: 20px;
+  }
+  #product .product .product-cards .cards .card p {
+    font-size: 14px;
+  }
+}
