@@ -20,50 +20,35 @@
 
 
 
- .container{
-    max-width:1512px;
-    border:1px solid red;
-    height:1195px;
+
+
+
+section{
+   width:100vw;
+   background-color: #3734A9;
     
-
-} 
-
+}
 
 .feedback{
-    max-width:1440px;
-    height:450px;
-    margin-top:116px;
+    
+    width:calc(100vw-122px);
+    max-width:1089px ;
+    margin:0 auto;
+    /* margin-top:116px; */
+    padding:74px 0px 75px;
     display: flex;
-    background-color: #3734A9;
-    position:relative;
+    justify-content: space-around;
 }
 
-.feedback .svg-1{
-    position:absolute;
-    top:238px;
-    left:5px;
+.feedback .title{
+    width:481px;
 }
 
 
-.feedback .svg-2{
-    position:absolute;
-    top:11px;
-    left:640px;
-}
-
-
-.feedback .svg-3{
-    position:absolute;
-    left:1242px;
-    bottom:313px;
-}
 
 .feedback .title .text-1{
-    position: absolute;
     width: 120px;
     height: 17px;
-    left: 122px;
-    top:74px;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
@@ -75,11 +60,9 @@
 }
 
 .feedback .title .text-3{
-position: absolute;
-width: 483px;
+
 height: 180px;
-left: 122px;
-top: 106px;
+
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 800;
@@ -91,11 +74,8 @@ color: #FFFFFF;
 
 
 .feedback .title .text-2{
-position: absolute;
 width: 446px;
 height: 60px;
-left: 122px;
-top: 315px;
 font-family: 'Manrope';
 font-style: normal;
 font-weight: 600;
@@ -108,13 +88,15 @@ color: #FFFFFF;
 }
 
 
+.feedback .form{
+width:371px;
+margin-top:73px;
+}
+
 .feedback .form .input .input-field-1 {
-    position: absolute;
-width: 371px;
-height: 60px;
-left: 840px;
-top: 137px;
+   
 background: #F2F3F4;
+width:100%;
 color: #BBB5E0;
 font-size: 20px;
 line-height: 30px;
@@ -128,11 +110,8 @@ font-family: 'Gilroy';
 
 
 .feedback .form .input .input-field-2{
-    position: absolute;
-    width: 371px;
-    height: 60px;
-    left: 840px;
-    top: 221px; 
+  
+    width:100%;
     background: #F2F3F4;
     opacity: 0.4;
     color:#BBB5E0;
@@ -146,11 +125,7 @@ letter-spacing: -0.02em;
 }
 
 .feedback .form .input .btn {
-    position: absolute;
-width: 371px;
-height: 60px;
-left: 840px;
-top: 305px;
+    width:100%;
 background: #FF7F5C;
 border:none;
 border-radius: 5px;
@@ -170,7 +145,7 @@ color: #FFFFFF;
 }
 
 
-footer{
+/* footer{
     background-color: #fff;
     max-width:1440px;
     height:480px;
@@ -295,7 +270,7 @@ ul {
     
 
 .footer .newsletter{
-    /* margin-left: 150px; */
+    
     font-family: 'Manrope';
     color:#181433;
   margin-left: 55px;
@@ -376,7 +351,7 @@ opacity: 0.5;
     margin-top: 40px;
  
     
-}
+} */
 
 
-
+ 
