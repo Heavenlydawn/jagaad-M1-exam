@@ -61,14 +61,22 @@ body {
 
 .startbutton{
   padding-top: 16px; 
+  padding-left: 20px;
 }
 .container{
   /* width: 1440px;
   height: 4279px; */
   padding: 0 0 92px ;
-  background-color: #faf9f9;
+  /* background-color: #faf9f9; */
   width: 100%;
   height: auto;
+  position: relative;
+}
+.background-svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
 }
 .Start-Free {
   width: 67px;
@@ -82,6 +90,7 @@ body {
   letter-spacing: normal;
   text-align: center;
   color: #fff;
+  /* padding-left: 2%; */
 }
 @media screen and (max-width: 768px) {
   .section-1 {
@@ -400,7 +409,7 @@ img.Vector-1577 {
 .middle-section {
   display: flex;
   justify-content: space-between;
-  padding-left: 13.89%;
+  /* padding-left: 13.89%; */
   /* height: 511px; */
   width: 1440px;
   /* padding-left: 200px; */
