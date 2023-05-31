@@ -51,7 +51,7 @@ button {
   content: "";
   width: 30%;
   height: 30%;
-  background: rgba(211, 211, 211, 0.075) url(./Polygon\ 7.svg) no-repeat ;
+  background: rgba(211, 211, 211, 0.075) url(./images/product-polygon.svg) no-repeat ;
   /* box-shadow:0 3px 10pc rgba(0,0,0,0.2); */
   position: absolute;
   top: 10%;
