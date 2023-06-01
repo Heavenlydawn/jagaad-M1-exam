@@ -136,10 +136,9 @@ table {
 body {
   line-height: 1;
   font-family: Manrope;
-  background-image: url(icons/background.svg);
+  background-image: url(images/icons/background.svg);
   background-repeat: no-repeat;
   background-size: 860px;
-
   background-position: right top;
 }
 
@@ -194,7 +193,7 @@ nav {
 .heading_left {
   width: 120px;
   height: 25px;
-  left: 100px;
+  left: 10%;
   font-weight: bold;
   font-size: 20px;
   line-height: 24.76px;
@@ -245,8 +244,11 @@ nav {
 .topic-mini {
   line-height: 30px;
   color: #06467d;
+  display: flex;
 }
-
+.process{
+  display:flex
+}
 .process-btn {
   color: #ffffff;
   background-color: #3734a9;
@@ -273,6 +275,7 @@ small > a {
   line-height: 30px;
   color: #3734a9;
   margin-bottom: 10px;
+  width:auto
 }
 
 #start-form {
@@ -365,9 +368,11 @@ small > a {
 }
 
 .left-list {
-  margin-left: 220px;
+  margin-left: 150px;
 }
-
+.row{
+  display:flex
+}
 /*
 * Media Queries
 */
