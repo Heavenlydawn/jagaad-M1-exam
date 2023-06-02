@@ -722,10 +722,23 @@ small > a {
   }
   .heading_center{
     align-items: center;
+    margin:0px;
   }
   .headers{
     display: grid;
+    margin:0px;
     /* padding-right: 100px; */
   }
+  .right-btns{
+    display: grid;
+  }
+  .left-list{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+  }
+ /* .middle-card{
+  display: grid;
+ } */
  
 }
