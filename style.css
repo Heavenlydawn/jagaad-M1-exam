@@ -532,7 +532,10 @@ small > a {
   }
   
   .start-btn {
-    padding: 15px 30px;
+    width: 300px;
+    font-size: 15px;
+    padding: 15px 60px;
+    padding-left: 60px;
   }
   
   .startup {
@@ -553,7 +556,7 @@ small > a {
   
   #email,
   #password {
-    width: 150px;
+    width: 300px;
     padding: 15px 20px;
   }
   
@@ -701,8 +704,10 @@ small > a {
     width:100px
   }
   .company-logo-list{
-    display: grid;
+    /* display: grid; */
     padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
   }
   .row2{
     width:300px;
