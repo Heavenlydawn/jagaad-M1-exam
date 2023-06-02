@@ -1,3 +1,5 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&family=Manrope:wght@500;600;700;800&display=swap");
 /*css reset*/
 
 html,
@@ -136,20 +138,24 @@ table {
 
 /*css styles*/
 
-body {
+/* body {
   line-height: 1;
   font-family: Manrope;
   background-image: url(images/icons/background.svg);
   background-repeat: no-repeat;
   background-size: 860px;
   background-position: right top;
+} */
+
+body{
+  font-family: 'Manrope', sans-serif;
 }
 
 header {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding-block: 14px;
+
   margin-bottom: 100px;
 }
 
@@ -180,12 +186,27 @@ nav {
   margin-left: auto;
 }
 
-.wrapper {
+.wrapper{
+  position:relative;
+}
+
+.header-svg{
+  position:absolute;
+  top:0;
+ right:-10%;
+ z-index: -1;
+
+}
+
+.wrapper-container {
   max-width: 1000px;
   margin-inline: auto;
   padding-inline: 16px;
   display: flex;
+  
 }
+
+
 
 .container {
   background-clip: margin-left;
@@ -230,9 +251,13 @@ nav {
 }
 
 .topic {
-  font-size: 4.5vw;
-  font-weight: bold;
-  margin-right: 30px;
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 74px;
+letter-spacing: -0.03em;
+color: #000000;
 }
 
 .topic-mini {
@@ -618,109 +643,34 @@ small > a {
 /* Add the following code at the end of your CSS */
 
 /* media queries */
-@media only screen and (max-width: 768px) {
-  .company-logo ul {
-    display: grid;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .company-logo li {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    text-align: center;
-  }
-  
-  .company-logo img {
-    height: 30px;
-    max-width: 100%;
-  }
-  .headers{
-    display: grid;margin:0px;
-    justify-content: flex-start;
-   } 
-  .nav{
-    display: grid;flex-direction: column;
-  }
-  .wrapper {
-    display: grid;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .container {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  header {
-    margin-bottom: 50px;
-    display:grid;
-  }
-  
-  ul {
-    margin: 0;
-    justify-content: center;
-    margin-bottom: 30px;
-  }
-  
-  li {
-    margin: 0 15px;
-  }
-  
-  .heading_left {
-    position: static;
-    width: auto;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .btn_head {
-    padding: 15px 30px;
-  }
-  
-  .topic {
-    font-size: 28px;
-    text-align: center;
-  }
-  
-  .topic-mini {
-    font-size: 14px;
-    text-align: center;
-  }
-  
-  .start {
-    font-size: 14px;
-    text-align: center;
-  }
-  
-  .start-btn {
-    padding: 15px 30px;
-    
-  }
-  
-  .startup {
-    font-size: 16px;
-    text-align: center;
-  }
-  
-  .company-logo {
-    text-align: center;
-  }
-  
-  .company-logo ul {
-    display: grid;
-  }
-  
-  .company-logo li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
-  .company-logo img {
-    height: 30px;
-  }
- 
+@media screen and (max-width:500px){
 
+  header {
+    flex-direction: column;
+    gap: 5px;
+   
+  }
+
+  .row{
+    flex-direction: column;
+  }
+
+  ul{
+    flex-direction: row;
+  }
+
+
+  .topic{
+    font-size: 30px;
+    line-height: 30px;
+  
+  }
+
+  .header-svg{
+   display:none;
+  
+  }
+  
+  
+  
 }
