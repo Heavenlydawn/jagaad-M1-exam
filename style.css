@@ -208,6 +208,7 @@ nav {
 
 
 
+
 .container {
   background-clip: margin-left;
 }
@@ -552,7 +553,7 @@ small > a {
   
   #email,
   #password {
-    width: 100%;
+    width: 150px;
     padding: 15px 20px;
   }
   
