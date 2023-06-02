@@ -280,16 +280,17 @@ ul a {
 
 
  .footer .line {
-  width: 1000px;
+  width: 990px;
   border:1px solid #E5E5EA;
-  margin:40px auto;
+  margin-left:13%;
+  margin-top: 45px;
   
 }
 
 
 .footer-section {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
