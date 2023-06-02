@@ -41,7 +41,29 @@ body {
   align-items: center;
   width: 100%;
   background: var(--footer-bg);
+  position:relative;
 }
+
+
+.footer-top .polygon-9{
+  position:absolute;
+  left:0;
+  top:220px;
+}
+
+.footer-top .polygon-10{
+  position:absolute;
+  left:45%;
+  top:20px;
+}
+
+.footer-top .polygon-8{
+  position:absolute;
+  top:0;
+  right:0;
+  transform: translateY(-120px);
+}
+
 
 /* Footer Top Left Section */
 #footer .footer .footer-top .footer-top-left {
@@ -277,6 +299,10 @@ ul a {
     width: 100vw;
     padding:20px;
     margin:0;
+  }
+
+  .svg{
+    display:none;
   }
   
   /* Footer Top Left Section */
