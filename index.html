@@ -4,114 +4,576 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>M2.C1.L1 || Jaggad Module 1 Exam</title>
+    <title>Jaggad Module 1 Exam || Shape Voice</title>
     <link
       rel="stylesheet"
       href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./template.css" />
+    <link rel="stylesheet" href="./product.css" />
+    <link rel="stylesheet" href="./blog.css" />
+    <link rel="stylesheet" href="./footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
     <div class="container">
-      <div class="wrapper">
-        <div class="header-svg">
-          <img src="images/icons/background.svg" alt="header-svg" />
-        </div>
-        <div class="wrapper-container">
-          <header>
-            <div>
-              <span class="heading_left"><small>SHAPEVOICE</small> </span>
-            </div>
-            <span class="heading_center">
-              <ul class="headers">
-                <li>
-                  <form class="product">
-                    <select>
-                      <option value="product">Product</option>
-                    </select>
-                  </form>
-                </li>
-
-                <li class="list">
-                  <select>
-                    <option value="template">Template</option>
-                  </select>
-                </li>
-                <nav class="middle-card">
-                  <li class="list"><a href="#">Blog</a></li>
-                  <li class="list"><a href="#">Pricing</a></li>
-                </nav>
-              </ul>
-            </span>
-            <span>
-              <ul class="right-btns">
-                <li class="left-list"><a href="#">Sign In</a></li>
-                <li class="list">
-                  <button class="btn_head">Start Free</button>
-                </li>
-              </ul>
-            </span>
-          </header>
-        </div>
-
-        <div class="row">
-          <div class="col-6 row1">
-            <h1 class="topic">
-               Managing business payments has never 
-              <br />
-              been easier
-            </h1>
-            <p class="topic-mini">
-              <small
-                >Yet bed any for travelling assistance indulgence <br />
-                upleasing.Not thoughts all exercise blessing. <br />Indulgence
-                way everything
-              </small>
-            </p>
-            <br />
-            <div class="process">
-              <button class="process-btn">Our Process</button
-              ><img
-                src="/images/icons/playbutton.svg"
-                alt="play-button"
-                class="play-image"
-              />
-              <small><a href="#"></a></small>
-            </div>
-          </div>
-          <div class="col-6 row2">
-            <form class="login-form">
-              <p class="start">Get Started for free</p>
-              <input type="email" id="email" placeholder="Email Address" />
-              <input type="password" id="password" placeholder="Password" />
-              <button class="start-btn">GET STARTED</button>
-            </form>
-          </div>
-        </div>
+      <div class="home-vector">
+        <img src="./images/Home-vector.svg" alt="" srcset="" />
       </div>
-      <section>
-        <div class="startup">
-          Trusted By Over 100+ Startups and freelance business
+      <!-- Header Section -->
+      <header>
+        <!-- Logo -->
+        <div class="logo">
+          <h2>SHAPE VOICE</h2>
+          <div class="bars">
+            <i class="fa-solid fa-bars" style="color: #0d3273"></i>
+          </div>
         </div>
-        <div class="company-logo">
-          <ul class="company-logo-list">
-            <li><img src="/images/icons/oracle.svg" alt="oracle-icon" /></li>
-            <li>
-              <img src="/images/icons/morpheus.svg" alt="Morpheus-icon" />
-            </li>
-            <li><img src="/images/icons/samsung.svg" alt="samsung-icon" /></li>
-            <li><img src="/images/icons/monday.svg" alt="monday-icon" /></li>
-            <li><img src="/images/icons/segment.svg" alt="segment-icon" /></li>
+        <!-- Links -->
+        <nav class="nav-link">
+          <ul>
+            <div class="pdt-link">
+              <li><a href="#product">Product</a></li>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="template-link">
+              <li><a href="#template">Template</a></li>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#pricing">Pricing</a></li>
           </ul>
+        </nav>
+        <!-- sign up -->
+        <div class="signup">
+          <a href="#">Sign Up</a>
+          <div class="hero-btn">
+            <button class="btn-dark">Start Free</button>
+          </div>
+        </div>
+      </header>
+      <!-- End Header Section -->
+
+      <!-- Hero Section -->
+      <section id="hero">
+        <div class="hero">
+          <!-- Hero Left Section -->
+          <div class="hero-left-section">
+            <h1>Managing business payments has never been easier</h1>
+            <p>
+              Yet bed any for travelling assistance indulgence unpleasing. Not
+              thoughts all exercise blessing. Indulgence way everything.
+            </p>
+            <div class="hero-btn-section">
+              <button class="btn-dark-rounded">Our Process</button>
+              <div class="play-btn">
+                <img src="./images/play-btn.svg" alt="" />
+                <span>See How It Works</span>
+              </div>
+            </div>
+          </div>
+          <!-- End of Hero Left Section -->
+
+          <!-- Hero Right Section -->
+          <div class="hero-right-section">
+            <h2>Get Started For Free</h2>
+            <div class="form">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+              />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+              <div class="btn">
+                <button class="btn-orange">GET STARTED</button>
+              </div>
+            </div>
+          </div>
+          <!-- End of Hero Right Section -->
+        </div>
+        <!-- Hero-bottom section -->
+        <div class="company-slide">
+          <h3>Trusted By Over 100+ Startups and freelance business</h3>
+          <div class="slides">
+            <img src="./images/oracle.svg" alt="" srcset="" />
+            <img src="./images/Morpheus.svg" alt="" srcset="" />
+            <img src="./images/samsung.svg" alt="" srcset="" />
+            <img src="./images/monday.svg" alt="" srcset="" />
+            <img src="./images/segment.svg" alt="" srcset="" />
+          </div>
         </div>
       </section>
+      <!--End Hero Section -->
     </div>
+
+    <!-- Template Section -->
+    <section id="template">
+      <div class="template">
+        <!-- Template Top Section -->
+        <div class="template-top">
+          <div class="template-top-left">
+            <h2>Track your crypto portfolio on the best way possible</h2>
+          </div>
+          <div class="template-top-right">
+            <button class="btn-blue">Check it out</button>
+          </div>
+        </div>
+        <!-- End Template Top Section -->
+
+        <div class="template-main">
+          <!-- Template left section -->
+          <div class="template-left">
+            <div class="card1">
+              <h2>100+ Verified Users</h2>
+              <div class="verified">
+                <img src="./images/templateIcon.svg" alt="" />
+              </div>
+              <!-- User 1 -->
+              <div class="user">
+                <img src="./images/user1.png" alt="" />
+                <div class="user-details">
+                  <h3>Theresa Webb</h3>
+                  <p>Mentor of Web Design</p>
+                </div>
+              </div>
+              <!-- User 2 -->
+              <div class="user">
+                <img src="./images/user2.png" alt="" />
+                <div class="user-details">
+                  <h3>Albert Florence</h3>
+                  <p>Mentor of Web Design</p>
+                </div>
+              </div>
+              <!-- User 3 -->
+              <div class="user">
+                <img src="./images/user3.png" alt="" />
+                <div class="user-details">
+                  <h3>Robert Fox</h3>
+                  <p>Mentor of UI/UX</p>
+                </div>
+              </div>
+
+              <div class="see-more">
+                <a href="#">See More</a>
+                <i class="fa-solid fa-arrow-right" style="color: #fe6160"></i>
+              </div>
+            </div>
+            <div class="card2">
+              <div class="current-user">
+                <div class="current-user-img">
+                  <img src="./images/current-user.png" alt="" />
+                </div>
+                <h2>AR Shakir</h2>
+                <p>Mentor of Web Development</p>
+                <div class="btn">
+                  <button class="btn-light-blue">CONTACT</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Template left section -->
+
+          <!-- Template Right Section -->
+          <div class="template-right">
+            <small>WHY CHOOSE US</small>
+            <h2>Thirty for remove plenty regard you summer though</h2>
+            <p class="template-content">
+              The its enable direct men depend highly. Ham windows sixteen who
+              inquiry fortune demands.
+            </p>
+
+            <div class="template-check">
+              <div class="check">
+                <i
+                  class="fa-sharp fa-solid fa-circle-check"
+                  style="color: #fdbc64"
+                ></i>
+                <p>Get Overview at a glance</p>
+              </div>
+
+              <div class="check">
+                <i
+                  class="fa-sharp fa-solid fa-circle-check"
+                  style="color: #fdbc64"
+                ></i>
+                <p>Deposit funds easily, security</p>
+              </div>
+
+              <div class="check">
+                <i
+                  class="fa-sharp fa-solid fa-circle-check"
+                  style="color: #fdbc64"
+                ></i>
+                <p>Get Live Support</p>
+              </div>
+            </div>
+          </div>
+          <!-- End of Template Right Section -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="product">
+      <div class="product">
+        <!-- Product Head -->
+        <div class="product-head">
+          <h1>Push your code to product with ease.</h1>
+          <p>
+            Led ask possible mistress relation elegance eat likewise debating.
+            By message or am nothing amongst chiefly address.
+          </p>
+        </div>
+        <!-- Product Head end -->
+        <div class="product-cards">
+          <div class="cards">
+            <!-- Card 1 -->
+            <div class="card">
+              <h2>Do believing oh disposing to supported</h2>
+              <p>
+                Is be upon sang fond must shew. Really boy law county she unable
+                her sister. Feet you off its like like six.
+              </p>
+              <div class="read-more">
+                <span>Read More</span>
+                <i class="fa-solid fa-arrow-right" style="color: #01966b"></i>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+              <h2>Do believing oh disposing to supported</h2>
+              <p>
+                The its enable direct men depend highly. Ham windows sixteen who
+                inquiry fortune demands.s
+              </p>
+              <div class="read-more">
+                <span>Read More</span>
+                <i class="fa-solid fa-arrow-right" style="color: #01966b"></i>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+              <h2>Do believing oh disposing to supported</h2>
+              <p>
+                Among sex are leave law built now. In built table in an rapid
+                blush. Merits behind on afraid or warmly.
+              </p>
+              <div class="read-more">
+                <span>Read More</span>
+                <i class="fa-solid fa-arrow-right" style="color: #01966b"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn">
+          <button class="product-btn">More About Platform</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+      <div class="blog">
+        <!-- Blog Header Section -->
+        <header class="blog-header">
+          <h2 class="big">Our Latest Blog Post</h2>
+          <div class="blog-btn">
+            <button class="btn-dark">See All Blog Posts</button>
+          </div>
+        </header>
+        <!-- End Blog Header -->
+
+        <!-- Blog Main Section -->
+        <div class="blog-main-section">
+          <!-- Blog-Left-Section -->
+          <main class="blog-left-section">
+            <!-- Blog Post-1 -->
+            <div class="blog-post">
+              <!-- Blog Post Image -->
+              <div class="blog-post-img">
+                <img src="./images/blog-img-1.png" alt="" />
+              </div>
+              <!-- Blog Post Content -->
+              <div class="blog-post-content">
+                <div class="content-top-section">
+                  <small class="light-grey"> 08-11-2021 </small>
+                  <p class="light-grey">Category</p>
+                </div>
+                <!-- Content-middle section -->
+                <h3 class="bold">
+                  Believing neglected so so allowance existence departure.
+                </h3>
+                <!-- Content-bottom Section -->
+                <p class="light-grey">
+                  End-to-end payments and financial management in a single
+                  solution. Meet the right platform to help realize.
+                </p>
+              </div>
+            </div>
+            <!-- Blog Post-2 -->
+            <div class="blog-post">
+              <!-- Blog Post Image -->
+              <div class="blog-post-img">
+                <img src="./images/blog-img-2.png" alt="" />
+              </div>
+              <!-- Blog Post Content -->
+              <div class="blog-post-content">
+                <div class="content-top-section">
+                  <small class="light-grey"> 08-11-2021 </small>
+                  <p class="light-grey">Category</p>
+                </div>
+                <!-- Content-middle section -->
+                <h3 class="bold">
+                  In design active temper be uneasy. Thirty for remove plenty
+                  regard you.
+                </h3>
+                <!-- Content-bottom Section -->
+                <p class="light-grey">
+                  End-to-end payments and financial management in a single
+                  solution. Meet the right platform to help realize.
+                </p>
+              </div>
+            </div>
+          </main>
+          <!-- End Blog Left Section -->
+
+          <!-- Blog-Right Section -->
+          <aside class="blog-right-section">
+            <!-- Blog Tile 1 -->
+            <div class="blog-tile">
+              <!-- Blog Tile Image -->
+              <div class="blog-tile-img">
+                <img src="./images/blogPost1.png" alt="" />
+              </div>
+              <!-- Blog Tile Content -->
+              <div class="blog-tile-content">
+                <div class="content-top-section">
+                  <small class="light-grey"> 08-11-2021 </small>
+                  <p class="light-grey">Category</p>
+                </div>
+                <h4 class="bold">
+                  Partiality on or continuing in particular principles
+                </h4>
+              </div>
+            </div>
+
+            <!-- Blog Tile 2 -->
+            <div class="blog-tile">
+              <!-- Blog Tile Image -->
+              <div class="blog-tile-img">
+                <img src="./images/blogPost2.png" alt="" />
+              </div>
+              <!-- Blog Tile Content -->
+              <div class="blog-tile-content">
+                <div class="content-top-section">
+                  <small class="light-grey"> 08-11-2021 </small>
+                  <p class="light-grey">Category</p>
+                </div>
+                <h4 class="bold">
+                  Do believing oh disposing to supported allowance we.
+                </h4>
+              </div>
+            </div>
+
+            <!-- Blog Tile 3 -->
+            <div class="blog-tile">
+              <!-- Blog Tile Image -->
+              <div class="blog-tile-img">
+                <img src="./images/blogPost3.png" alt="" />
+              </div>
+              <!-- Blog Tile Content -->
+              <div class="blog-tile-content">
+                <div class="content-top-section">
+                  <small class="light-grey"> 08-11-2021 </small>
+                  <p class="light-grey">Category</p>
+                </div>
+                <h4 class="bold">
+                  Village did removed enjoyed explain nor ham saw.
+                </h4>
+              </div>
+            </div>
+            <!-- Blog Tile 4 -->
+            <div class="blog-tile">
+              <!-- Blog Tile Image -->
+              <div class="blog-tile-img">
+                <img src="./images/blogPost4.png" alt="" />
+              </div>
+              <!-- Blog Tile Content -->
+              <div class="blog-tile-content">
+                <div class="content-top-section">
+                  <small class="light-grey"> 08-11-2021 </small>
+                  <p class="light-grey">Category</p>
+                </div>
+                <h4 class="bold">Securing as informed declared or margaret</h4>
+              </div>
+            </div>
+          </aside>
+          <!-- End Blog-Right Section -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+      <div class="footer">
+        <!-- Footer top section -->
+        <div class="footer-top">
+          <div class="svg">
+            <div class="polygon-10">
+              <img src="svg/Polygon 10.svg" alt="polygon-10" />
+            </div>
+            <div class="polygon-9">
+              <img src="svg/Polygon 9.svg" alt="polygon-9" />
+            </div>
+            <div class="polygon-8">
+              <img src="svg/Polygon 8.svg" alt="polygon-8" />
+            </div>
+          </div>
+          <!-- Footer top left -->
+          <div class="footer-top-left">
+            <small>WHY CHOOSE US</small>
+            <h2>Partiality on or continue in the particular principles</h2>
+            <p>
+              End-to-end payments and financial management in a single solution.
+              Meet the right platform to help realize.
+            </p>
+          </div>
+          <!-- Footer top right -->
+          <div class="footer-top-right">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <br />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+
+            <div class="footer-btn">
+              <button class="btn-orange">GET STARTED</button>
+            </div>
+          </div>
+        </div>
+        <!-- Footer top section end -->
+
+        <!-- Footer bottom Section -->
+        <div class="footer-bottom">
+          <!--social start-->
+          <div class="social">
+            <h3>AR Shakir</h3>
+            <p>Finance helps companies manage payments easily.</p>
+            <div class="icons">
+              <div class="icon-1" style="width: 20px; height: 20px">
+                <box-icon
+                  type="logo"
+                  color="#3734A9"
+                  name="linkedin"
+                ></box-icon>
+              </div>
+              <div class="icon-2" style="width: 20px; height: 20px">
+                <box-icon
+                  type="logo"
+                  color="#3734A9"
+                  name="messenger"
+                ></box-icon>
+              </div>
+              <div class="icon-3" style="width: 20px; height: 17px">
+                <box-icon type="logo" color="#3734A9" name="twitter"></box-icon>
+              </div>
+              <div class="icon-4" style="width: 20px; height: 17px">
+                <box-icon
+                  type="regular"
+                  color="#3734A9"
+                  name="infinite"
+                ></box-icon>
+              </div>
+            </div>
+          </div>
+          <!--links Start-->
+          <div class="company">
+            <h3>Company</h3>
+            <ul>
+              <li class="link-1"><a href="#">About Us</a></li>
+              <li class="link-1"><a href="#">Careers</a></li>
+              <li class="link-1"><a href="#">Blog</a></li>
+              <li class="link-1"><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+          <!--links End-->
+          <!--resources start-->
+          <div class="resources">
+            <h3>Resources</h3>
+            <ul>
+              <li class="link-2"><a href="#">Proposal Template</a></li>
+              <li class="link-2"><a href="#">Invoice</a></li>
+              <li class="link-2"><a href="#">Tutorial</a></li>
+              <li class="link-2" style="width: 174px">
+                <a href="#">How to write a contract</a>
+              </li>
+            </ul>
+          </div>
+          <!--resources End-->
+          <!--newsletter start-->
+          <div class="newsletter">
+            <h3>Join Our Newsletter</h3>
+            <div class="btn">
+              <input
+                type="email"
+                class="input-field-1"
+                placeholder=" Your email address"
+              />
+              <input
+                type="submit"
+                class="input-field-2"
+                placeholder="Subscribe"
+              />
+            </div>
+            <p>
+              * Will send you weekly updates for your better finance management.
+            </p>
+          </div>
+          <!--newsletter End-->
+
+          <!-- Footer bottom Section End  -->
+
+          <!-- Footer Copyright -->
+        </div>
+
+        <div class="line">
+          <hr />
+        </div>
+
+        <p class="footer-section">
+          Copyright @ AR Shakir 2022. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </body>
 </html>
