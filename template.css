@@ -47,7 +47,7 @@ body {
   font-family: var(--font-family);
 
 }
-button {
+.btn-light-blue {
   border: none;
   outline: none;
   border-radius: var(--border-radius);
@@ -121,7 +121,7 @@ Template Left Section
 }
 #template .template .template-main .template-left {
   width: 342px;
-  height: 388px;
+  height: 420px;
   box-shadow: 0px 64px 194px 0px #0000001a;
 }
 #template .template .template-main .template-left .card1 {
@@ -189,8 +189,8 @@ Template Left Section
 }
 #template .template .template-main .template-left .card2 {
   position: absolute;
-  top: 535px;
-  right: 57%;
+  top: 1500px;
+  right: 60%;
 }
 #template .template .template-main .template-left .card2 .current-user {
   width: 370px;
@@ -314,10 +314,12 @@ Media Queries
   #template .template .template-main {
     display: flex;
     flex-direction: column;
+    gap:5rem;
   }
 
   #template .template .template-main .template-left .card2 {
     left: 200px;
     top: 720px;
+    display: none;
   }
 }

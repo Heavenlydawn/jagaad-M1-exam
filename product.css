@@ -26,8 +26,10 @@ span {
 .btn {
   text-align: center;
   margin-top: 42px;
+  margin:20px auto;
+  width: 100%;
 }
-button {
+.product-btn {
   outline: none;
   border: none;
   background: #4f46ba;
